@@ -1,0 +1,49 @@
+/* Use @import directive to import fonts here */
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(223, 233, 252);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardContiner {
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 30rem;
+}
+
+.inputContainer {
+    justify-content: center;
+}
+
+#emailinput {
+    padding: 5px 5px;
+    width: 17rem;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    width: 8rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(68, 67, 67);
+}
+
+span {
+    font-size: 13px;
+}
+
+#validatedMsg {
+    color: red;
+}
