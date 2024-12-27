@@ -1,0 +1,25 @@
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+
+.wrapper {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: fit-content;
+  padding: 5px;
+}
+
+.light {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 10px;
+}
