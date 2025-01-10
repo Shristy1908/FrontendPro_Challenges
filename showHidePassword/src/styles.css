@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  font-family: sans-serif;
+}
+.nav {
+  background-color: rgb(33, 33, 91);
+}
+.passDiv {
+  background-color: white;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 0px 5px;
+}
+.passDiv input {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.passDiv input:focus {
+  outline: none;
+}
