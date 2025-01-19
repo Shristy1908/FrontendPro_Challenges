@@ -1,2 +1,7 @@
 # TodoList
-Created with CodeSandbox
+
+functionality- 
+
+- Add Task
+- delete Task
+- complete incomplete task
