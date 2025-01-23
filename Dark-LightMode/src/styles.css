@@ -1,0 +1,31 @@
+[dark-theme="light"] {
+  --bg-color: #fff;
+  --text-color: #1e1e1e;
+}
+[dark-theme="dark"] {
+  --bg-color: #1e1e1e;
+  --text-color: #fff;
+}
+body {
+  background-color: var(--bg-color);
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+p {
+  color: var(--text-color);
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  padding: 10px;
+  background-color: rgb(15, 15, 75);
+  gap: 15px;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  gap:15px
+}
