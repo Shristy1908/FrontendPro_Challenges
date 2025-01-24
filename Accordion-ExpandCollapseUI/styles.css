@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+}
+
+#div2,
+#div1 {
+  position: absolute;
+  cursor: pointer;
+  right: 22px;
+}
+#para1,
+#para2 {
+  color: rgb(68, 68, 68);
+}
+.innerContainer {
+  border: 2px solid rgb(203, 202, 202);
+  padding: 0px 10px;
+}
